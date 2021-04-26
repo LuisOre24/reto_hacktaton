@@ -4,9 +4,10 @@
 ################################################################################
 
 try:
-
+    #INICIALIZANDO LISTA CON UN RANGO FIJO
     notas = list(range(5))
 
+    #ALMACENANDO LAS NOTAS MEDIANTE UN FOR
     i = 0
     for nota in notas:
         nota = int(input(f'Ingrese Nota #{i+1}: '))
